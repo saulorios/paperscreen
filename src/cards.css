@@ -1,0 +1,122 @@
+.cardms{
+    margin: 30px 20px;
+    width: 180px;
+    height: 350px;
+    border-radius: 5px;
+    border: solid 1px #eee;
+    overflow: hidden;
+    box-shadow: 0 8px 6px -6px rgb(94, 94, 94);
+  }
+  .cardms-image {
+    width: 180px;
+    height: 273px;
+    overflow: hidden;
+    position: relative; 
+  }
+  .cardms-image img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .cardms-desc{
+    padding: 0 8px 0 8px;
+    margin-top: 10px;
+    text-align: start;
+  }
+  .cardms-desc h6{
+    font-size: 14px;
+    margin: 0;
+  }
+  .cardms-desc p{
+    font-size: 14px;
+  }
+  .cardms-desc a{
+    color: rgb(61, 61, 61);
+  }
+  .cardms-desc a:hover{
+    color: #307bff;
+    text-decoration: none;
+  }
+  .cardact{
+    margin: 30px 20px;
+    width: 140px;
+    height: 255px;
+    border-radius: 5px;
+    border: solid 1px #eee;
+    overflow: hidden;
+    box-shadow: 0 8px 6px -6px rgb(94, 94, 94);
+  }
+  .cardact-image {
+    width: 138px;
+    height: 175px;
+    overflow: hidden;
+    position: relative; 
+  }
+  .cardact-image img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .cardact-desc{
+    padding: 0 8px 0 8px;
+    margin-top: 10px;
+    text-align: start;
+  }
+  .cardact-desc h6{
+    font-size: 14px;
+    margin: 0;
+  }
+  .cardact-desc p{
+    font-size: 14px;
+  }
+  .cardact-desc a{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+  }
+  /*cards similar*/
+  .card-similar {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+  }
+  .card-similar p{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    color: rgb(83, 82, 82);
+  }
+  .card-similar-img {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative; 
+    width: 300px;
+    height: 200px;
+    margin: 0;
+  }
+  .card-similar-img img {
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: 0;
+  }
+
+  .images{
+    width: 225px;
+    margin-right: 20px;
+  }
+  /*Recommendations*/
+  .reco {
+    width: 225px;
+    height: 319px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 6px -6px rgb(94, 94, 94);
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  .reco img{
+    position: absolute;
+    width: 100%;
+  }
